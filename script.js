@@ -8,7 +8,7 @@
     return;
   }
 
-  const url = `  `http://api.weatherapi.com/v1/current.json?key=aad6eb6b3a04439aa1761316251202&q=${location}&aqi=no`;
+  const url = `http://api.weatherapi.com/v1/current.json?key=aad6eb6b3a04439aa1761316251202&q=${location}&aqi=no`;
 
   try {
     resultDiv.innerHTML = "Loading...";
